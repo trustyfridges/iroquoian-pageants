@@ -1,6 +1,6 @@
 ---
 layout: page
-show_title: false
+show_title: true
 banner:
   collection: newspaper
   pid: clipping_9
@@ -8,7 +8,7 @@ banner:
   height: '500px'
 ---
 
-This is a tester website of Wax for the purposes f=of tutorials
+This is a tester website of Wax for the purposes of tutorials
 
 ### Browse the Collection
 

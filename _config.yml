@@ -67,7 +67,7 @@ collections:
     output: true
   newspaper: # name of collection
     output: true # makes sure pages are output as html files
-    layout: 'generic_collection_item' # the layout for the pages to use
+    layout: 'qatar_item' # the layout for the pages to use
     metadata:
       source: 'newspaper.csv' # path to the metadata file within `_data`
     images:

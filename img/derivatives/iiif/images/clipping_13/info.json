@@ -1,0 +1,45 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/clipping_13",
+  "protocol": "http://iiif.io/api/image",
+  "width": 688,
+  "height": 2646,
+  "sizes": [
+    {
+      "width": 688,
+      "height": 2646
+    },
+    {
+      "width": 250,
+      "height": 961
+    },
+    {
+      "width": 1140,
+      "height": 4384
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

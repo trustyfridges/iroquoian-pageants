@@ -1,0 +1,78 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/clipping_18/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "clipping_18",
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/clipping_18_clipping_18-1/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/clipping_18_clipping_18-1.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/clipping_18_clipping_18-1.json",
+          "label": "Page 1",
+          "width": 1400,
+          "height": 4678,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/clipping_18_clipping_18-1/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/clipping_18_clipping_18-1.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/clipping_18_clipping_18-1/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/clipping_18_clipping_18-1",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 700,
+                "height": 2339
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/clipping_18_clipping_18-1.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/clipping_18_clipping_18-2.json",
+          "label": "Page 2",
+          "width": 1424,
+          "height": 6056,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/clipping_18_clipping_18-2/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/clipping_18_clipping_18-2.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/clipping_18_clipping_18-2/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/clipping_18_clipping_18-2",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 712,
+                "height": 3028
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/clipping_18_clipping_18-2.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/clipping_18_clipping_18-1/full/full/0/default.jpg",
+  "fullwidth": "{{ '/' | absolute_url }}img/derivatives/iiif/images/clipping_18_clipping_18-1/full/1140,/0/default.jpg"
+}

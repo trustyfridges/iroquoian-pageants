@@ -1,0 +1,91 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/collection/newspaper.json",
+  "@type": "sc:Collection",
+  "label": "newspaper",
+  "manifests": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/clipping_1/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "clipping_1"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/clipping_10/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "clipping_10"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/clipping_13/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "clipping_13"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/clipping_14/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "clipping_14"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/clipping_16/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "clipping_16"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/clipping_18/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "clipping_18"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/clipping_19/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "clipping_19"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/clipping_20/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "clipping_20"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/clipping_21/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "clipping_21"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/clipping_22/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "clipping_22"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/clipping_3/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "clipping_3"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/clipping_4/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "clipping_4"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/clipping_5/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "clipping_5"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/clipping_6/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "clipping_6"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/clipping_7/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "clipping_7"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/clipping_9/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "clipping_9"
+    }
+  ]
+}

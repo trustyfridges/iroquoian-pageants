@@ -1,0 +1,32 @@
+---
+layout: none
+---
+{
+  "@type": "sc:Canvas",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/clipping_21_clipping_21-2.json",
+  "label": "Page 2",
+  "width": 1020,
+  "height": 1766,
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/clipping_21_clipping_21-2/full/250,/0/default.jpg",
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/clipping_21_clipping_21-2.json",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/clipping_21_clipping_21-2/full/full/0/default.jpg",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/clipping_21_clipping_21-2",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 510,
+        "height": 883
+      },
+      "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/clipping_21_clipping_21-2.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}
